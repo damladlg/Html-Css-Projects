@@ -12,7 +12,7 @@ html {
 .navbar {
   background-color: black;
   color: white;
-  height: 45px;
+  height: 8%;
   width: 100%;
   position: fixed;
   top: 0;
@@ -24,25 +24,28 @@ html {
 .navbar a {
   color: white;
   font-family: "Athiti", sans-serif;
-  font-size: 18px;
+  font-size: 13.5pt;
   text-decoration: none;
-  margin-right: 25px;
+  margin-right: 1.6em;
   padding: 10px 10px;
 }
 .navbar a:hover {
   background-color: darkgray;
 }
 .navbar img {
-  width: 100px;
-  height: 100px;
+  width: 20%;
+  height: 20%;
   opacity: 0.9;
   filter: alpha(opacity=90);
-  margin-left: 25px;
-  margin-top: 65px;
-  padding: 8px;
+  margin-left: 3%;
+  margin-top: 13%;
+  padding: 1%;
   border: 1px solid darkolivegreen;
   box-shadow: 5px 5px 5px darkolivegreen;
   border-radius: 10px;
+}
+.navbar i {
+  display: none;
 }
 .background-photo {
   height: 100%;
@@ -71,14 +74,12 @@ html {
   padding-bottom: 20px;
 }
 .aboutme {
-  padding: 0 130px;
+  padding: 0 100px;
   line-height: 30px;
 }
 .container {
   background-color: white;
   font-family: "Montserrat", sans-serif;
-  width: 100%;
-  height: 100%;
   margin: auto;
   font-size: 18px;
 }
@@ -87,9 +88,10 @@ html {
   align-items: center;
 }
 .profile-photo {
-  width: 30%;
-  height: 30%;
+  width: 32%;
+  height: 32%;
   margin: 60px 0 0 100px;
+  padding-bottom: 5%;
 }
 .profile-photo img {
   width: 300px;
@@ -107,7 +109,7 @@ html {
   width: 400px;
   height: 500px;
   background-color: #eee;
-  margin: 50px auto;
+  margin: 15px auto;
   padding: 10px;
 }
 .work {
@@ -144,24 +146,79 @@ html {
 }
 .icons {
   width: 20%;
-  height: 35px;
+  height: 5%;
   margin: 0 auto;
 }
 .icons i {
-  margin-right: 15px;
-  margin-top: 20px;
+  margin-right: 5%;
+  margin-top: 10%;
   color: black;
 }
 .mail i {
-  margin: 5px;
+  margin: 1%;
 }
 footer {
   text-align: center;
   background-color: black;
   color: white;
-  height: 35px;
-  line-height: 35px;
+  height: 5%;
+  line-height: 200%;
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 12px;
   letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 768px) {
+  .homepage h1 {
+    font-size: 65px;
+  }
+  .navbar {
+    height: 10%;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .left-side img {
+    width: 25%;
+    height: 25%;
+  }
+  .navbar i {
+    display: block;
+    margin-right: 6%;
+    cursor: pointer;
+    font-size: 30px;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 15%;
+  }
+  .right-side {
+    display: none;
+  }
+  #bio {
+    width: 100%;
+    height: 150%;
+  }
+  .bio-container {
+    flex-direction: column;
+  }
+  .profile-photo {
+    width: 60%;
+    height: 60%;
+    margin: 1px 0 0 1px;
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
+  .profile-photo img {
+    height: 100%;
+    width: 100%;
+  }
+  .aboutme {
+    width: 90%;
+    padding: 0 0;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+  }
+  .icons {
+    width: 40%;
+  }
 }
