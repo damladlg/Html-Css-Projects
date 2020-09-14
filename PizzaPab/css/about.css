@@ -1,0 +1,98 @@
+.about-us {
+  display: flex;
+}
+.about-image {
+  position: relative;
+}
+.about-image img {
+  width: 100%;
+  border-radius: 25px;
+  padding: 4%;
+}
+.about-content {
+  margin: 4%;
+}
+.about-content p {
+  color: #888888;
+  padding-top: 3%;
+}
+.team {
+  background-color: #f8f9fa;
+}
+.team-group {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4%;
+}
+.about-image {
+  position: relative;
+}
+.about-image:hover .text-container {
+  opacity: 0.3;
+}
+.about-image .text-container {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: black;
+}
+.about-image .text-container .text {
+  color: #fff;
+  font-size: 1.7em;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.facts {
+  background: url("../images/stats.jpg") no-repeat center center/cover;
+}
+.our-facts {
+  display: flex;
+  padding-top: 5%;
+}
+.fact {
+  padding-right: 10%;
+}
+.fact i {
+  font-size: 2em;
+  margin-bottom: 10%;
+}
+.fact h6 {
+  font-size: 2em;
+}
+.fact p {
+  font-size: 1.4em;
+}
+.reasons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+  text-align: center;
+}
+.reason p {
+  color: #888888;
+  margin-top: 5%;
+}
+.reason h6 {
+  font-size: 1.5em;
+}
+@media only screen and (max-width: 768px) {
+  .about-us {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .team-group {
+    flex-wrap: wrap;
+  }
+  .about-image {
+    width: 50%;
+  }
+  .reasons {
+    flex-wrap: wrap;
+  }
+}

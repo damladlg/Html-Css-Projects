@@ -68,8 +68,8 @@ html {
   padding: 5%;
 }
 .home-contacts {
-  display: flex;
   background-color: #131419;
+  display: flex;
   color: #999999;
 }
 .home-contact {
@@ -112,4 +112,12 @@ html {
 }
 .icon-bar i {
   padding-left: 5%;
+}
+@media only screen and (max-width: 768px) {
+  .home-contacts {
+    flex-wrap: wrap;
+  }
+  .home-contact {
+    width: 100%;
+  }
 }
