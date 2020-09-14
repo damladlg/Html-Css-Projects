@@ -1,0 +1,159 @@
+.home-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e7272d;
+  padding: 0 5% 5% 5%;
+}
+.content {
+  color: yellow;
+}
+.content p {
+  font-size: 80px;
+  color: white;
+}
+.symbol {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: yellow;
+  flex-shrink: 0;
+  margin-bottom: 30%;
+  text-align: center;
+}
+.symbol h3 {
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+.photo {
+  margin-top: 5%;
+}
+.home-about {
+  padding: 5%;
+}
+.home-about-controller {
+  display: flex;
+  justify-content: space-between;
+}
+.info-about {
+  width: 50%;
+  margin-right: 5%;
+}
+.info-about h2 {
+  font-size: 42px;
+  margin-bottom: 4%;
+}
+.info-about p {
+  font-size: 1.2em;
+  margin-bottom: 4%;
+  line-height: 170%;
+  color: #888888;
+}
+.products {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+.product {
+  width: 50%;
+  margin-bottom: 10%;
+}
+.product img {
+  border: 20px #fef5f4 solid;
+  border-radius: 50%;
+  background-color: #fef5f4;
+  margin-bottom: 10%;
+}
+.product h3 {
+  width: 80%;
+  font-size: 22px;
+}
+.home-order {
+  background-color: #f8f9fa;
+  padding: 5%;
+}
+.order-info {
+  display: flex;
+  justify-content: space-between;
+}
+.order-about {
+  width: 30%;
+  height: 60%;
+}
+.order-about h3 {
+  font-size: 28px;
+  margin-bottom: 10%;
+}
+.order-about p {
+  font-size: 18px;
+  color: #888888;
+  padding-bottom: 15%;
+}
+.order-about img {
+  width: 95%;
+  border-radius: 6%;
+}
+.home-gallery {
+  width: 100%;
+  text-align: center;
+  padding: 5%;
+}
+.genel-header {
+  font-size: 1.2em;
+  padding-bottom: 1%;
+  color: #888888;
+  text-align: center;
+}
+.header {
+  font-size: 1.8em;
+  text-align: center;
+  font-weight: bold;
+}
+.gallery-photo {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  justify-content: center;
+  align-content: stretch;
+}
+.gallery-image {
+  width: 30%;
+  margin-bottom: 4%;
+}
+.gallery-image img {
+  width: 70%;
+  border-radius: 20px;
+}
+.selected a {
+  background-color: #e7272d;
+  color: white;
+  text-decoration: none;
+  border: 10px solid #e7272d;
+  border-radius: 40px;
+  padding: 3px 8px 3px 8px;
+}
+.selected i {
+  padding-right: 5%;
+}
+.testimonials {
+  text-align: center;
+  background-color: #d7b091;
+  padding: 5%;
+}
+.commenter {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.carousel-item img {
+  padding: 3% 0 3% 0;
+  width: 50%;
+}
+.comment {
+  font-size: 1.4em;
+  margin-right: 30%;
+  margin-left: 30%;
+  text-align: center;
+}
