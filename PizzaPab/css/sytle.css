@@ -19,13 +19,21 @@ html {
   text-align: center;
   font-weight: bold;
 }
+.new-menu {
+  display: none;
+  padding-right: 14%;
+  font-size: 1.5em;
+  color: white;
+}
 .navbar {
-  box-sizing: border-box;
   background-color: #e7272d;
   height: 14vh;
   display: flex;
+  justify-content: space-between;
   font-weight: bold;
   border-bottom: solid 0.3px wheat;
+  padding-left: 4%;
+  padding-right: 4%;
 }
 .left-side {
   padding-left: 4%;
@@ -55,7 +63,7 @@ html {
   color: white;
 }
 .online-order {
-  padding-right: 4%;
+  padding-left: 2%;
 }
 .online-order a {
   background-color: yellow;
@@ -114,6 +122,40 @@ html {
   padding-left: 5%;
 }
 @media only screen and (max-width: 768px) {
+  .right-side {
+    display: none;
+  }
+  .navbar {
+    display: none;
+  }
+  .alt-menu {
+    position: relative;
+
+    float: left;
+  }
+  .new-menu {
+    display: block;
+  }
+  #dropdown-menu {
+    display: none;
+  }
+  #menum {
+    display: none;
+    position: absolute;
+    background-color: #e7272d;
+
+    border: 8px solid white;
+  }
+  #menum a {
+    color: white;
+  }
+  #dropdown-menu:checked + #menum {
+    display: block;
+    text-align: center;
+  }
+  .online-order {
+    display: none;
+  }
   .home-contacts {
     flex-wrap: wrap;
   }

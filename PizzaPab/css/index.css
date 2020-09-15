@@ -101,17 +101,6 @@
   text-align: center;
   padding: 5%;
 }
-.genel-header {
-  font-size: 1.2em;
-  padding-bottom: 1%;
-  color: #888888;
-  text-align: center;
-}
-.header {
-  font-size: 1.8em;
-  text-align: center;
-  font-weight: bold;
-}
 .gallery-photo {
   display: flex;
   padding-top: 5%;
@@ -157,6 +146,9 @@
   text-align: center;
 }
 @media only screen and (max-width: 768px) {
+  .content {
+    padding-top: 5%;
+  }
   .home-page {
     flex-wrap: wrap;
     justify-content: center;
